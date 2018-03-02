@@ -1,0 +1,32 @@
+﻿  Aplication.cpp
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(63): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(64): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(77): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(78): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(79): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(80): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(87): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(88): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(95): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(102): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(103): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(105): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(106): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(108): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(109): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(111): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(112): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(114): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(115): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(126): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(132): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(133): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(138): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(139): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(171): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(172): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(178): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(179): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(186): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\g8631\source\repos\project2\project2\aplication.cpp(197): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Project2.vcxproj -> C:\Users\G8631\Source\Repos\Project2\Debug\Project2.exe
