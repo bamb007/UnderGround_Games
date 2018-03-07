@@ -10,6 +10,7 @@ SceneManager::SceneManager()
 
 SceneManager::~SceneManager()
 {
+
 }
 
 void SceneManager::setup() 
@@ -43,5 +44,9 @@ void SceneManager::ChangeScene(Scene* scene)
 
 void SceneManager::PreScene()
 {
+	Scene* trash = scenes.back();
+
 	scenes.pop_back();
+
+	delete trash;
 }

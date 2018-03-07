@@ -8,6 +8,12 @@ Scene::Scene()
 
 Scene::~Scene()
 {
+	for (Entity* var: entities)
+	{
+		delete var;
+	}
+
+	delete &entities;
 }
 
 void Scene::update(MouseState mouseState)

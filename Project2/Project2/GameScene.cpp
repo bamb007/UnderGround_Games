@@ -1,26 +1,7 @@
+#pragma once
 #include "GameScene.h"
-
-struct GridItem
-{
-	float x;
-	float y;
-
-	int type;
-
-	GridItem() {
-		x = 0;
-		y = 0;
-		type = 0;
-	}
-
-	GridItem(float _x, float _y, int _type)
-	{
-		x = _x;
-		y = _y;
-		type = _type;
-
-	}
-};
+#include "Enemy.h"
+#include <ctime>
 
 int x = 3;
 int y = 3;
@@ -30,9 +11,13 @@ bool previousKeys[91];
 int cell_count = 10;
 GridItem grid[10][10];
 
+std::clock_t ss;
+int updates = 0;
 
 GameScene::GameScene()
 {
+	ss = std::clock();
+
 	for (int i = 0; i < cell_count; i++)
 	{
 		for (int j = 0; j < cell_count; j++)
@@ -52,6 +37,13 @@ GameScene::GameScene()
 		grid[1][i] = GridItem(1, i, 1);
 		grid[cell_count - 2][i] = GridItem(cell_count - 2, i, 1);
 	}
+
+	Enemy* enemy = new Enemy(this);
+
+	enemy->x = 4;
+	enemy->y = 4;
+
+	entities.push_back(enemy);
 }
 
 
@@ -61,6 +53,14 @@ GameScene::~GameScene()
 
 void GameScene::update(MouseState mouseState) {
 	Scene::update(mouseState);
+
+	updates++;
+
+	if (double(clock() - ss) / CLOCKS_PER_SEC >= 1) {
+		std::cout << "Updates: " << updates << endl;
+		updates = 0;
+		ss = clock();
+	}
 
 	if (mouseState.keys[GLFW_KEY_D] && !previousKeys[GLFW_KEY_D]) {
 		if (grid[x + 1][y].type != 1)

@@ -15,7 +15,7 @@ public:
 	}
 
 	virtual void draw() {}
-	float x, y;
+	int x, y;
 	float width, height;
 };
 
