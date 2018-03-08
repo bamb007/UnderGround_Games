@@ -1,0 +1,5 @@
+﻿  Application.cpp
+c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  e:\skole\vs - projekter\4. sem\github\underground_games-master_main\project2\dependencies\glfw\include\glfw\glfw3.h(98): note: see previous definition of 'APIENTRY'
+e:\skole\vs - projekter\4. sem\github\underground_games-master_main\project2\project2\application.cpp(71): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Project2.vcxproj -> E:\Skole\VS - projekter\4. sem\GitHub\UnderGround_Games-master_main\Project2\Debug\Project2.exe
