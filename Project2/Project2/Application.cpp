@@ -3,6 +3,7 @@
 #include "SceneManager.h"
 #include "Globals.h"
 #include "MenuScene.h"
+#include <Windows.h>
 
 SceneManager sceneManager;
 bool keys[91];
@@ -15,6 +16,10 @@ void key_callback(GLFWwindow* window, int key, int scancode, int action, int mod
 
 int main(void)
 {
+	HWND consoleWindow = GetConsoleWindow();
+	SetWindowPos(consoleWindow, 0, 1000, 250, 300, 640, SWP_NOZORDER);
+
+
 	GLFWwindow* window;
 
 	/* Initialize the library */
@@ -31,6 +36,8 @@ int main(void)
 		glfwTerminate();
 		return -1;
 	}
+
+	glfwSetWindowPos(window, 1000 - 640, 250);
 
 	glfwSetKeyCallback(window, key_callback);
 

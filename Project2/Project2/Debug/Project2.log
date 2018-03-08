@@ -1,29 +1,5 @@
-﻿  GameScene.cpp
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(104): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(105): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(107): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(108): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(121): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(127): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(134): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(135): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(140): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(154): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(155): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(162): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(169): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(170): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(172): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(173): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(175): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(176): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(178): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(179): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(181): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\g8631\downloads\documents\underground_games\project2\project2\gamescene.cpp(182): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+﻿  Application.cpp
+c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\users\g8631\downloads\documents\underground_games\project2\dependencies\glfw\include\glfw\glfw3.h(98): note: see previous definition of 'APIENTRY'
+c:\users\g8631\downloads\documents\underground_games\project2\project2\application.cpp(71): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   Project2.vcxproj -> C:\Users\G8631\Downloads\Documents\UnderGround_Games\Project2\Debug\Project2.exe
